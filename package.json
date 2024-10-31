@@ -1,11 +1,11 @@
 {
   "private": true,
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Vue 3 rich text editor",
-  "homepage": "https://vueup.github.io/vue-quill/",
-  "bugs": "https://github.com/vueup/vue-quill/issues",
+  "homepage": "https://github.com/lvshuang/vue-quill",
+  "bugs": "https://github.com/lvshuang/vue-quill/issues",
   "license": "MIT",
-  "author": "Ahmad Luthfi Masruri",
+  "author": "lv",
   "funding": [
     {
       "type": "individual",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vueup/vue-quill.git"
+    "url": "https://github.com/lvshuang/vue-quill.git"
   },
   "types": "test-dts/index.d.ts",
   "tsd": {
@@ -34,7 +34,7 @@
     ]
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "npx ts-node scripts/dev.ts",
@@ -63,7 +63,7 @@
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^28.1.8",
     "@types/node": "^18.11.3",
-    "@types/quill": "^2.0.6",
+    "@types/quill": "^2.0.14",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
     "@vitejs/plugin-vue": "^3.1.2",
